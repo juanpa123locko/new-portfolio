@@ -251,3 +251,10 @@
   new PureCounter();
 
 })()
+
+window.addEventListener('load', function () {
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+});
